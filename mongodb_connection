@@ -1,0 +1,8 @@
+from pymongo import MongoClient
+
+# MongoDB connection setup
+def connect_mongo():
+    # Replace with your MongoDB connection URI
+    MONGO_URI = "your_mongodb_connection_string"  # <-- Add your MongoDB URI here
+    client = MongoClient(MONGO_URI)
+    return client
